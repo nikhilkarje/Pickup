@@ -38,7 +38,7 @@ namespace MvcDemo.Models
 
         [Required(ErrorMessage = "*Postal code is required")]
         [Display(Name = "Postal Code")]
-        [DataType(DataType.PostalCode)]
+        
         public int pincode { get; set; }
 
         [Required(ErrorMessage = "*Date of pickup is required")]
