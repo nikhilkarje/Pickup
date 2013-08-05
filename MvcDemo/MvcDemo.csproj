@@ -102,12 +102,12 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\PickupDB.cs" />
+    
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\Pickup.mdf" />
-    <Content Include="App_Data\Pickup_log.ldf">
-      <DependentUpon>Pickup.mdf</DependentUpon>
+    <Content Include="App_Data\Pickup.sdf" />
+      <DependentUpon>Pickup.sdf</DependentUpon>
     </Content>
     <Content Include="Content\logo.jpg" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
