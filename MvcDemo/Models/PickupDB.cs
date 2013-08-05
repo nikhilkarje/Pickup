@@ -80,6 +80,9 @@ namespace MvcDemo.Models
 
     public class PickupDBContext : DbContext
     {
+		public PickupDBContext()
+            : base("PickupDBContext")
+			{}
         public DbSet<PickupDB> Pickup { get; set; }
     }
 
