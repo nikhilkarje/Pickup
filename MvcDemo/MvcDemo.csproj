@@ -107,8 +107,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\Pickup.sdf" />
-      <DependentUpon>Pickup.sdf</DependentUpon>
-    </Content>
+      
     <Content Include="Content\logo.jpg" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
